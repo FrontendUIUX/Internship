@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+h3 {
+  color: white;
+}
+
+.separator {
+  height: 1px;
+  background-color: white;
+  width: 100%;
+ 
+}
+
+.navbar {
+  background-color: transparent;
+  border: none;
+  height: 20%;
+  margin-left: 8%;
+  margin-top:1%; 
+  margin-bottom:1%;
+}
+
+.navbar-nav > li > a {
+  font-size: 13px;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.navbar-brand img {
+  height: 30px;
+  margin-top: -7px;
+}
+
+
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-nav > li > a,
+.nav.nav-tabs > li.active > a,
+.nav.nav-tabs > li.active > a:hover,
+.navbar-brand {
+  color: white !important;
+
+}
+
+.navbar-nav > li > a:hover,
+.nav.nav-tabs > li > a:hover {
+  color: lightblue !important;
+}
+
+#myCarousel {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.carousel-controls {
+  position: fixed;
+  bottom: 10%;
+  left: 11%;
+  z-index: 2;
+}
+
+.carousel-controls .left {
+  right: 70px;
+}
+
+.carousel-controls .right {
+  left: 70px;
+}
+
+#accomplishment-text {
+  position: fixed;
+  bottom: 15%;
+  left: 10%;
+  color: white;
+  font-size: 3vw;
+  z-index: 2;
+}
